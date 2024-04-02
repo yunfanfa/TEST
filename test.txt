@@ -20,3 +20,6 @@ git log 查看日志
 
 PS E:\Admin\AAAq> git add .
 PS E:\Admin\AAAq> git commit -m "第二次提交"
+git commit 格式
+PS E:\Admin\AAAq> git add .
+PS E:\Admin\AAAq> git commit -m "fix(test): change content"
