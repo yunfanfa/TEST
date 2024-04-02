@@ -3,3 +3,17 @@ ls  查看目录
 pwd 显示路径
 cd.. 返回上一级
 cd 文件名   返回文件名所在目录
+
+git config --global user.name "yun"       
+PS E:\Admin\AAAq> git config --global user.email "44126683@qq.com"
+PS E:\Admin\AAAq> git init
+Initialized empty Git repository in E:/Admin/AAAq/.git/     
+PS E:\Admin\AAAq> git add test.txt
+PS E:\Admin\AAAq> git add .
+
+PS E:\Admin\AAAq> git commit
+a或i进入编辑模式
+esc退出编辑模式
+:wq保存
+
+git log 查看日志
