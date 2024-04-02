@@ -6,7 +6,7 @@ cd 文件名   返回文件名所在目录
 
 git config --global user.name "yun"       
 PS E:\Admin\AAAq> git config --global user.email "44126683@qq.com"
-PS E:\Admin\AAAq> git init
+PS E:\Admin\AAAq> git init  初始化（创建隐藏文件夹）
 Initialized empty Git repository in E:/Admin/AAAq/.git/     
 PS E:\Admin\AAAq> git add test.txt
 PS E:\Admin\AAAq> git add .  添加所有文件
@@ -23,3 +23,12 @@ PS E:\Admin\AAAq> git commit -m "第二次提交"
 git commit 格式
 PS E:\Admin\AAAq> git add .
 PS E:\Admin\AAAq> git commit -m "fix(test): change content"
+
+PS E:\Admin\AAAq> git reset --hard a2d2c3660953c3183b44c6079d1cd846e5f029b0
+回退到目标版本
+
+git branch 0.1  创建分支
+git branch -a  查看分支
+git checkout 0.1 进入分支
+git checkout master进入主流
+git merge 0.2 将分支合并
